@@ -24,7 +24,6 @@ venv.bak/
 *.sqlite3
 db.sqlite3
 media/
-staticfiles/
 
 # If you are using Django Compressor
 compressor-output/
