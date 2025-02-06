@@ -26,9 +26,10 @@ SECRET_KEY = 'django-insecure-m#8=kraz#lv_95n90v903594^k%yv&i=r7af78#xh92265qye#
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',  # Localhost
-    'localhost',  # Localhost
-    'django-server-production-2268.up.railway.app',  # Railway app host here
+    '127.0.0.1',
+    'localhost',
+    'django-server-production-2268.up.railway.app',
+    'autorack.proxy.rlwy.net',
 ]
 
 # Application definition
@@ -128,7 +129,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Additional static files settings (optional)
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '/staticfiles'),
+    os.path.join(BASE_DIR, 'staticfiles'),
 ]
 
 STATICFILES_STORAGE="whitenoise.storage.CompressedManifestStaticFilesStorage"
